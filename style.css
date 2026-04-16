@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #92cff8;
+  color: #000;
+  height: 40px;
+  font-size: 14px;
+}
+
+/* Header */
+.header {
+  background: #fff;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.logo h4 {
+  color: #0b3a75;
+  font-weight: bold;
+}
+
+.emergency {
+  color: red;
+  font-weight: bold;
+}
+
+.account-btn {
+  background: #3a8ecb;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+/* Navbar */
+.custom-nav {
+  background: #072a63;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 500px;
+  background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center/cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  margin-top: 120px;
+  height: 50%;
+  background: rgba(100, 160, 200, 0.5);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.get-started {
+  background: #7fb2d3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.get-started:hover {
+  background: #badef6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.video-section {
+  background: #f2f2f2;
+}
+
+/* Top Cards */
+.top-card {
+  background: #8bb7d6;
+  padding: 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.top-card img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.top-card p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.top-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Videos */
+video {
+  border-radius: 5px;
+}
+
+.info-section {
+  background: #cfe3ef;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+.main-heading {
+  color: #1c5d99;
+  font-weight: bold;
+}
+
+.sub-heading {
+  color: #1c5d99;
+  font-weight: bold;
+}
+
+.phone {
+  color: #1c5d99;
+  font-weight: bold;
+}
+
+/* Second Heading */
+.second-heading {
+  color: #1c5d99;
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  color: #1c5d99;
+  text-decoration: underline;
+}
+
+/* Facebook Box */
+.fb-box {
+  background: #ddd;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  text-align: center;
+}
+
+/* Program */
+.program h6 {
+  color: #1c5d99;
+  font-weight: bold;
+}
+
+.program p {
+  font-size: 12px;
+}
+.footer_badges img {
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.review-img {
+  max-height: 90px;
+}
+.footer{
+    background-color: #072a63;
+    color: white;
+    font-size: 13px;
+}
+
+.custom-content {
+  background: #e3f4ff;
+  font-family: Arial, sans-serif;
+}
+
+/* Left Content */
+.main-title {
+  color: #1c5d99;
+  font-weight: bold;
+}
+
+.sub-title {
+  color: #1c5d99;
+  margin-bottom: 15px;
+}
+
+/* Sidebar */
+.sidebar-box {
+  background: #f8f9fa;
+  padding: 15px;
+  border-left: 4px solid #1c5d99;
+}
+
+.sidebar-box h5 {
+  color: #1c5d99;
+  font-weight: bold;
+}
+
+.sidebar-box h6 {
+  font-weight: bold;
+}
+
+/* Highlight Box */
+.sidebar-highlight {
+  background: #92cff8;
+  padding: 15px;
+  font-weight: 500;
+}
+.forms-section {
+  background: #e3f4ff;
+  text-align: center;
+}
+
+/* Headings */
+.form-title {
+  color: #1c5d99;
+  font-weight: bold;
+}
+
+.form-subtitle {
+  color: #1c5d99;
+  margin-bottom: 10px;
+}
+
+/* Form Boxes */
+.form-box {
+  display: block;
+  padding: 15px;
+  background: #92cff8;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
